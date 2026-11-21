@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a35">
+  <meta name="description" content="EnglishHub B1.1 — a shared English learning platform.">
+  <title>EnglishHub B1.1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#/dashboard" aria-label="EnglishHub dashboard">
+        <span class="brand-mark">E<span>H</span></span>
+        <span class="brand-copy"><strong>EnglishHub</strong><small>B1.1 LEARNING SPACE</small></span>
+      </a>
+      <div class="sidebar-label" data-i18n="menu.learning">LEARNING</div>
+      <nav class="nav-list" id="main-nav">
+        <a class="nav-link active" href="#/dashboard" data-route="dashboard"><span class="nav-icon">▦</span><span data-i18n="nav.dashboard">Dashboard</span></a>
+        <a class="nav-link" href="#/lessons" data-route="lessons"><span class="nav-icon">▤</span><span data-i18n="nav.lessons">Lessons</span><span class="nav-count">6</span></a>
+        <a class="nav-link" href="#/grammar" data-route="grammar"><span class="nav-icon">Aa</span><span data-i18n="nav.grammar">Grammar</span></a>
+        <a class="nav-link" href="#/vocabulary" data-route="vocabulary"><span class="nav-icon">文</span><span data-i18n="nav.vocabulary">Vocabulary</span></a>
+        <a class="nav-link" href="#/exercises" data-route="exercises"><span class="nav-icon">✓</span><span data-i18n="nav.exercises">Exercises</span></a>
+        <a class="nav-link" href="#/games" data-route="games"><span class="nav-icon">◇</span><span data-i18n="nav.games">Games</span><span class="nav-count">14</span></a>
+        <a class="nav-link" href="#/tests" data-route="tests"><span class="nav-icon">▣</span><span data-i18n="nav.tests">Tests</span></a>
+        <a class="nav-link" href="#/speaking" data-route="speaking"><span class="nav-icon">♫</span><span data-i18n="nav.speaking">Speaking</span></a>
+      </nav>
+      <div class="sidebar-label secondary-label" data-i18n="menu.personal">YOUR SPACE</div>
+      <nav class="nav-list">
+        <a class="nav-link" href="#/progress" data-route="progress"><span class="nav-icon">↗</span><span data-i18n="nav.progress">My progress</span></a>
+        <a class="nav-link" href="#/settings" data-route="settings"><span class="nav-icon">⚙</span><span data-i18n="nav.settings">Settings</span></a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-tip-icon">✦</div>
+        <strong data-i18n="sidebar.tipTitle">Small steps, big progress.</strong>
+        <p data-i18n="sidebar.tipText">A little practice every day makes a difference.</p>
+        <span class="level-pill">CEFR · B1.1</span>
+      </div>
+      <div class="sidebar-footer">ENGLISHHUB <span>•</span> v1.0</div>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-button mobile-menu" id="mobile-menu" aria-label="Open menu">☰</button>
+          <div class="breadcrumb"><span data-i18n="breadcrumb.workspace">Learning space</span><span class="crumb-sep">/</span><strong id="page-breadcrumb">Dashboard</strong></div>
+        </div>
+        <div class="topbar-actions">
+          <span class="course-chip"><span class="status-dot"></span><span data-i18n="header.course">B1.1 Course</span></span>
+          <label class="language-control" aria-label="Interface language">
+            <span class="language-globe">◎</span>
+            <select id="language-select">
+              <option value="en">EN</option>
+              <option value="sr">SR</option>
+              <option value="ru">RU</option>
+            </select>
+          </label>
+          <button class="icon-button theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☾</button>
+          <div class="avatar" aria-label="Guest learner">G</div>
+        </div>
+      </header>
+
+      <main id="page-content" class="page-content" tabindex="-1"></main>
+      <footer class="main-footer">
+        <span>EnglishHub B1.1</span>
+        <span data-i18n="footer.local">Your progress is saved on this device.</span>
+      </footer>
+    </div>
+  </div>
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
