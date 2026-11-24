@@ -5409,6 +5409,1777 @@ const supplementaryRows = [
     "category": "adverbs",
     "example": "I listened to music while I was working."
   }
+,
+{
+  "topic": "life-events",
+  "word": "to start school",
+  "partOfSpeech": "verb phrase",
+  "definition": "to begin attending school",
+  "translation": {
+    "sr": "krenuti u školu",
+    "ru": "начать ходить в школу"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "I started school when I was six."
+},
+{
+  "topic": "life-events",
+  "word": "to leave school",
+  "partOfSpeech": "verb phrase",
+  "definition": "to finish or stop attending school",
+  "translation": {
+    "sr": "završiti / napustiti školu",
+    "ru": "закончить / бросить школу"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "She left school at eighteen."
+},
+{
+  "topic": "life-events",
+  "word": "to go to college",
+  "partOfSpeech": "verb phrase",
+  "definition": "to study at a college after school",
+  "translation": {
+    "sr": "ići na koledž / fakultet",
+    "ru": "поступать в колледж"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "He went to college after high school."
+},
+{
+  "topic": "life-events",
+  "word": "to go to university",
+  "partOfSpeech": "verb phrase",
+  "definition": "to study at a university",
+  "translation": {
+    "sr": "ići na univerzitet / fakultet",
+    "ru": "поступать в университет"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "I went to university to study engineering."
+},
+{
+  "topic": "life-events",
+  "word": "to study",
+  "partOfSpeech": "verb",
+  "definition": "to learn about a subject",
+  "translation": {
+    "sr": "učiti / studirati",
+    "ru": "учиться / изучать"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "I studied mathematics at school."
+},
+{
+  "topic": "life-events",
+  "word": "to graduate",
+  "partOfSpeech": "verb",
+  "definition": "to complete a course at a school or university",
+  "translation": {
+    "sr": "diplomirati",
+    "ru": "окончить учебное заведение"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "He graduated from university last year."
+},
+{
+  "topic": "life-events",
+  "word": "training course",
+  "partOfSpeech": "noun",
+  "definition": "a series of lessons to learn a skill",
+  "translation": {
+    "sr": "kurs obuke",
+    "ru": "курс обучения"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "I completed a training course in IT."
+},
+{
+  "topic": "life-events",
+  "word": "to get a job",
+  "partOfSpeech": "verb phrase",
+  "definition": "to find and start working in a job",
+  "translation": {
+    "sr": "dobiti posao",
+    "ru": "получить работу"
+  },
+  "lessonId": "lesson-02",
+  "category": "work",
+  "example": "She got a job in a bank."
+},
+{
+  "topic": "life-events",
+  "word": "to join a company",
+  "partOfSpeech": "verb phrase",
+  "definition": "to start working for a company",
+  "translation": {
+    "sr": "pridružiti se kompaniji / zaposliti se u kompaniji",
+    "ru": "устроиться в компанию"
+  },
+  "lessonId": "lesson-02",
+  "category": "work",
+  "example": "I joined the company in March."
+},
+{
+  "topic": "life-events",
+  "word": "to leave a company",
+  "partOfSpeech": "verb phrase",
+  "definition": "to stop working for a company",
+  "translation": {
+    "sr": "napustiti kompaniju",
+    "ru": "уйти из компании"
+  },
+  "lessonId": "lesson-02",
+  "category": "work",
+  "example": "He left the company after five years."
+},
+{
+  "topic": "life-events",
+  "word": "to get promoted",
+  "partOfSpeech": "verb phrase",
+  "definition": "to move to a more senior job",
+  "translation": {
+    "sr": "dobiti unapređenje",
+    "ru": "получить повышение"
+  },
+  "lessonId": "lesson-02",
+  "category": "work",
+  "example": "She got promoted last month."
+},
+{
+  "topic": "life-events",
+  "word": "to get fired",
+  "partOfSpeech": "verb phrase",
+  "definition": "to lose your job because your employer ends your employment",
+  "translation": {
+    "sr": "dobiti otkaz",
+    "ru": "быть уволенным"
+  },
+  "lessonId": "lesson-02",
+  "category": "work",
+  "example": "He got fired for repeatedly arriving late."
+},
+{
+  "topic": "life-events",
+  "word": "to move house",
+  "partOfSpeech": "verb phrase",
+  "definition": "to change the place where you live",
+  "translation": {
+    "sr": "preseliti se",
+    "ru": "переехать"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "We moved house last summer."
+},
+{
+  "topic": "life-events",
+  "word": "to meet a partner",
+  "partOfSpeech": "verb phrase",
+  "definition": "to meet someone who later becomes your partner",
+  "translation": {
+    "sr": "upoznati partnera",
+    "ru": "встретить партнёра"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "They met their partners at university."
+},
+{
+  "topic": "life-events",
+  "word": "to get married",
+  "partOfSpeech": "verb phrase",
+  "definition": "to become husband and wife or legal partners",
+  "translation": {
+    "sr": "venčati se",
+    "ru": "пожениться"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "They got married in June."
+},
+{
+  "topic": "life-events",
+  "word": "to get divorced",
+  "partOfSpeech": "verb phrase",
+  "definition": "to legally end a marriage",
+  "translation": {
+    "sr": "razvesti se",
+    "ru": "развестись"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "They got divorced several years ago."
+},
+{
+  "topic": "life-events",
+  "word": "to have children",
+  "partOfSpeech": "verb phrase",
+  "definition": "to become a parent",
+  "translation": {
+    "sr": "imati decu",
+    "ru": "иметь детей"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "They decided to have children."
+},
+{
+  "topic": "life-events",
+  "word": "to grow up",
+  "partOfSpeech": "verb phrase",
+  "definition": "to become older and more mature",
+  "translation": {
+    "sr": "odrasti",
+    "ru": "вырасти"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "I grew up in a small town."
+},
+{
+  "topic": "life-events",
+  "word": "to retire",
+  "partOfSpeech": "verb",
+  "definition": "to stop working because of age",
+  "translation": {
+    "sr": "penzionisati se",
+    "ru": "выйти на пенсию"
+  },
+  "lessonId": "lesson-02",
+  "category": "work",
+  "example": "My grandfather retired at sixty-five."
+},
+{
+  "topic": "education",
+  "word": "nursery school",
+  "partOfSpeech": "noun",
+  "definition": "a place for very young children before primary school",
+  "translation": {
+    "sr": "jaslice / predškolska ustanova",
+    "ru": "ясли / детский сад"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "My sister went to nursery school near our home."
+},
+{
+  "topic": "education",
+  "word": "primary school",
+  "partOfSpeech": "noun",
+  "definition": "the first stage of formal education",
+  "translation": {
+    "sr": "osnovna škola",
+    "ru": "начальная школа"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "I started primary school at the age of six."
+},
+{
+  "topic": "education",
+  "word": "secondary school",
+  "partOfSpeech": "noun",
+  "definition": "school for older children after primary school",
+  "translation": {
+    "sr": "srednja škola",
+    "ru": "средняя школа"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "He went to secondary school in Belgrade."
+},
+{
+  "topic": "education",
+  "word": "high school",
+  "partOfSpeech": "noun",
+  "definition": "a school for older teenagers",
+  "translation": {
+    "sr": "srednja škola",
+    "ru": "старшая школа"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "She finished high school in 2022."
+},
+{
+  "topic": "education",
+  "word": "higher education",
+  "partOfSpeech": "noun",
+  "definition": "education at college or university level",
+  "translation": {
+    "sr": "visoko obrazovanje",
+    "ru": "высшее образование"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "Higher education can open up new career opportunities."
+},
+{
+  "topic": "education",
+  "word": "mathematics",
+  "partOfSpeech": "noun",
+  "definition": "the study of numbers and calculations",
+  "translation": {
+    "sr": "matematika",
+    "ru": "математика"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "Mathematics was difficult for me at school."
+},
+{
+  "topic": "education",
+  "word": "science",
+  "partOfSpeech": "noun",
+  "definition": "the study of the natural world",
+  "translation": {
+    "sr": "prirodne nauke",
+    "ru": "естествознание / наука"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "Science was one of our main subjects."
+},
+{
+  "topic": "education",
+  "word": "geography",
+  "partOfSpeech": "noun",
+  "definition": "the study of places, countries and the Earth",
+  "translation": {
+    "sr": "geografija",
+    "ru": "география"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "We learned about rivers in geography."
+},
+{
+  "topic": "education",
+  "word": "history",
+  "partOfSpeech": "noun",
+  "definition": "the study of past events",
+  "translation": {
+    "sr": "istorija",
+    "ru": "история"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "I enjoyed learning history."
+},
+{
+  "topic": "education",
+  "word": "engineering",
+  "partOfSpeech": "noun",
+  "definition": "the work of designing and building machines, roads and systems",
+  "translation": {
+    "sr": "inženjerstvo",
+    "ru": "инженерное дело"
+  },
+  "lessonId": "lesson-02",
+  "category": "education",
+  "example": "He studied engineering at university."
+},
+{
+  "topic": "news",
+  "word": "politics",
+  "partOfSpeech": "noun",
+  "definition": "the activities and ideas involved in governing a country",
+  "translation": {
+    "sr": "politika",
+    "ru": "политика"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "We talked about politics after dinner."
+},
+{
+  "topic": "news",
+  "word": "politician",
+  "partOfSpeech": "noun",
+  "definition": "a person who works in politics",
+  "translation": {
+    "sr": "političar",
+    "ru": "политик"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The politician answered questions from reporters."
+},
+{
+  "topic": "news",
+  "word": "political issue",
+  "partOfSpeech": "noun",
+  "definition": "a subject that people debate in politics",
+  "translation": {
+    "sr": "političko pitanje",
+    "ru": "политический вопрос"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "Education is an important political issue."
+},
+{
+  "topic": "news",
+  "word": "weather forecast",
+  "partOfSpeech": "noun",
+  "definition": "a report about the expected weather",
+  "translation": {
+    "sr": "vremenska prognoza",
+    "ru": "прогноз погоды"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The weather forecast says it will rain tomorrow."
+},
+{
+  "topic": "news",
+  "word": "terrorist attack",
+  "partOfSpeech": "noun",
+  "definition": "an act of violence intended to create fear for political or ideological reasons",
+  "translation": {
+    "sr": "teroristički napad",
+    "ru": "террористическая атака"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The news reported a terrorist attack; no further details were available."
+},
+{
+  "topic": "news",
+  "word": "Prime Minister",
+  "partOfSpeech": "noun",
+  "definition": "the head of government in some countries",
+  "translation": {
+    "sr": "premijer",
+    "ru": "премьер-министр"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The Prime Minister gave a speech."
+},
+{
+  "topic": "news",
+  "word": "economy",
+  "partOfSpeech": "noun",
+  "definition": "the system of money, trade and business in a country",
+  "translation": {
+    "sr": "privreda / ekonomija",
+    "ru": "экономика"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The economy grew last year."
+},
+{
+  "topic": "news",
+  "word": "economics",
+  "partOfSpeech": "noun",
+  "definition": "the study of how money, trade and resources work",
+  "translation": {
+    "sr": "ekonomija kao nauka",
+    "ru": "экономика как наука"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "She studies economics at university."
+},
+{
+  "topic": "news",
+  "word": "inflation rate",
+  "partOfSpeech": "noun",
+  "definition": "the speed at which prices increase",
+  "translation": {
+    "sr": "stopa inflacije",
+    "ru": "уровень инфляции"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The inflation rate fell in April."
+},
+{
+  "topic": "news",
+  "word": "unemployment",
+  "partOfSpeech": "noun",
+  "definition": "the situation of not having a job",
+  "translation": {
+    "sr": "nezaposlenost",
+    "ru": "безработица"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "Unemployment is a serious issue in some regions."
+},
+{
+  "topic": "news",
+  "word": "thief",
+  "partOfSpeech": "noun",
+  "definition": "a person who steals something",
+  "translation": {
+    "sr": "lopov",
+    "ru": "вор"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The thief was seen near the shop."
+},
+{
+  "topic": "news",
+  "word": "thieves",
+  "partOfSpeech": "plural noun",
+  "definition": "the plural form of thief",
+  "translation": {
+    "sr": "lopovi",
+    "ru": "воры"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The police spoke to two witnesses who saw the thieves."
+},
+{
+  "topic": "news",
+  "word": "earthquake",
+  "partOfSpeech": "noun",
+  "definition": "a sudden movement of the Earth's surface",
+  "translation": {
+    "sr": "zemljotres",
+    "ru": "землетрясение"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The earthquake damaged several buildings."
+},
+{
+  "topic": "news",
+  "word": "flood",
+  "partOfSpeech": "noun",
+  "definition": "a large amount of water covering normally dry land",
+  "translation": {
+    "sr": "poplava",
+    "ru": "наводнение"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "Heavy rain caused a flood."
+},
+{
+  "topic": "news",
+  "word": "hurricane",
+  "partOfSpeech": "noun",
+  "definition": "a very strong tropical storm",
+  "translation": {
+    "sr": "uragan",
+    "ru": "ураган"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The hurricane moved towards the coast."
+},
+{
+  "topic": "news",
+  "word": "to steal",
+  "partOfSpeech": "verb",
+  "definition": "to take something that belongs to another person without permission",
+  "translation": {
+    "sr": "ukrasti",
+    "ru": "украсть"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "Someone tried to steal a bicycle."
+},
+{
+  "topic": "news",
+  "word": "crime",
+  "partOfSpeech": "noun",
+  "definition": "an act that breaks the law",
+  "translation": {
+    "sr": "krivično delo / zločin",
+    "ru": "преступление"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The report described a recent crime."
+},
+{
+  "topic": "news",
+  "word": "natural disaster",
+  "partOfSpeech": "noun",
+  "definition": "a serious event caused by nature",
+  "translation": {
+    "sr": "prirodna katastrofa",
+    "ru": "стихийное бедствие"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The town received help after the natural disaster."
+},
+{
+  "topic": "technology",
+  "word": "IT",
+  "partOfSpeech": "noun",
+  "definition": "information technology; computers and digital systems",
+  "translation": {
+    "sr": "informacione tehnologije (IT)",
+    "ru": "информационные технологии (ИТ)"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "I work in IT support."
+},
+{
+  "topic": "technology",
+  "word": "key",
+  "partOfSpeech": "noun",
+  "definition": "a button on a keyboard",
+  "translation": {
+    "sr": "taster",
+    "ru": "клавиша"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "Press the Enter key."
+},
+{
+  "topic": "technology",
+  "word": "mouse",
+  "partOfSpeech": "noun",
+  "definition": "a device used to control the pointer on a screen",
+  "translation": {
+    "sr": "miš",
+    "ru": "компьютерная мышь"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "I use a wireless mouse."
+},
+{
+  "topic": "technology",
+  "word": "email address",
+  "partOfSpeech": "noun",
+  "definition": "the address used to send electronic messages",
+  "translation": {
+    "sr": "imejl adresa",
+    "ru": "адрес электронной почты"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "Please check your email address."
+},
+{
+  "topic": "technology",
+  "word": "World Wide Web",
+  "partOfSpeech": "noun",
+  "definition": "the system of linked pages and resources accessed through the Internet",
+  "translation": {
+    "sr": "Svetska mreža",
+    "ru": "Всемирная паутина"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "I found the information on the World Wide Web."
+},
+{
+  "topic": "technology",
+  "word": "web page",
+  "partOfSpeech": "noun",
+  "definition": "one page on a website",
+  "translation": {
+    "sr": "veb-stranica",
+    "ru": "веб-страница"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "This web page contains the instructions."
+},
+{
+  "topic": "technology",
+  "word": "search engine",
+  "partOfSpeech": "noun",
+  "definition": "a website or service used to find information online",
+  "translation": {
+    "sr": "pretraživač",
+    "ru": "поисковая система"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "I used a search engine to find the answer."
+},
+{
+  "topic": "technology",
+  "word": "keyword",
+  "partOfSpeech": "noun",
+  "definition": "an important word used in a search",
+  "translation": {
+    "sr": "ključna reč",
+    "ru": "ключевое слово"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "Add a keyword to improve your search."
+},
+{
+  "topic": "technology",
+  "word": "memory stick",
+  "partOfSpeech": "noun",
+  "definition": "a small portable device used to store files",
+  "translation": {
+    "sr": "USB memorija",
+    "ru": "USB-накопитель"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "I saved the photos on a memory stick."
+},
+{
+  "topic": "technology",
+  "word": "memory",
+  "partOfSpeech": "noun",
+  "definition": "the part of a computer that stores information for use",
+  "translation": {
+    "sr": "memorija",
+    "ru": "память"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "This computer has enough memory."
+},
+{
+  "topic": "technology",
+  "word": "to browse",
+  "partOfSpeech": "verb",
+  "definition": "to look through information or websites",
+  "translation": {
+    "sr": "pregledati / pretraživati",
+    "ru": "просматривать"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "I often browse websites for information."
+},
+{
+  "topic": "technology",
+  "word": "to attach",
+  "partOfSpeech": "verb",
+  "definition": "to add a file to an email or message",
+  "translation": {
+    "sr": "priložiti",
+    "ru": "прикрепить"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "I forgot to attach the document."
+},
+{
+  "topic": "emails",
+  "word": "Regards",
+  "partOfSpeech": "email closing",
+  "definition": "a polite way to end a formal or neutral email",
+  "translation": {
+    "sr": "Srdačan pozdrav",
+    "ru": "С уважением"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Regards, Alex"
+},
+{
+  "topic": "emails",
+  "word": "Best wishes",
+  "partOfSpeech": "email closing",
+  "definition": "a friendly way to end an email",
+  "translation": {
+    "sr": "Sve najbolje",
+    "ru": "С наилучшими пожелanjima"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Best wishes, Alex"
+},
+{
+  "topic": "emails",
+  "word": "Dear Sir/Madam",
+  "partOfSpeech": "email greeting",
+  "definition": "a formal greeting when you do not know the recipient's name",
+  "translation": {
+    "sr": "Poštovani/Poštovana",
+    "ru": "Уважаемый господин / Уважаемая госпожа"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Dear Sir/Madam, I am writing to ask for information."
+},
+{
+  "topic": "travel",
+  "word": "terminal",
+  "partOfSpeech": "noun",
+  "definition": "a building or area at an airport where passengers arrive and leave",
+  "translation": {
+    "sr": "terminal",
+    "ru": "терминал"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Our flight leaves from Terminal 2."
+},
+{
+  "topic": "travel",
+  "word": "baggage",
+  "partOfSpeech": "noun",
+  "definition": "another word for luggage",
+  "translation": {
+    "sr": "prtljag",
+    "ru": "багаж"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "You can collect your baggage after landing."
+},
+{
+  "topic": "travel",
+  "word": "transit",
+  "partOfSpeech": "noun",
+  "definition": "the process of passing through a place on the way somewhere else",
+  "translation": {
+    "sr": "tranzit",
+    "ru": "транзит"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We have a short transit in Vienna."
+},
+{
+  "topic": "travel",
+  "word": "to transfer",
+  "partOfSpeech": "verb",
+  "definition": "to change from one vehicle or service to another",
+  "translation": {
+    "sr": "presedati / prebaciti se",
+    "ru": "пересесть / перевести"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "You need to transfer to another train."
+},
+{
+  "topic": "travel",
+  "word": "high-speed train",
+  "partOfSpeech": "noun",
+  "definition": "a train that travels at a very high speed",
+  "translation": {
+    "sr": "brzi voz",
+    "ru": "скоростной поезд"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We took a high-speed train to Paris."
+},
+{
+  "topic": "travel",
+  "word": "check-in",
+  "partOfSpeech": "noun",
+  "definition": "the process of registering for a flight or hotel",
+  "translation": {
+    "sr": "prijava",
+    "ru": "регистрация"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Online check-in opens 24 hours before departure."
+},
+{
+  "topic": "travel",
+  "word": "to check in",
+  "partOfSpeech": "verb",
+  "definition": "to register at an airport or hotel",
+  "translation": {
+    "sr": "prijaviti se",
+    "ru": "зарегистрироваться"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We need to check in two hours before the flight."
+},
+{
+  "topic": "travel",
+  "word": "security check",
+  "partOfSpeech": "noun",
+  "definition": "a check of passengers and their belongings for safety",
+  "translation": {
+    "sr": "bezbednosna kontrola",
+    "ru": "досмотр безопасности"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Please prepare your bags for the security check."
+},
+{
+  "topic": "travel",
+  "word": "scanner",
+  "partOfSpeech": "noun",
+  "definition": "a machine that checks or reads something",
+  "translation": {
+    "sr": "skener",
+    "ru": "сканер"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Put your bag through the scanner."
+},
+{
+  "topic": "travel",
+  "word": "metal detector",
+  "partOfSpeech": "noun",
+  "definition": "a device that detects metal",
+  "translation": {
+    "sr": "detektor metala",
+    "ru": "металлодетектор"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Walk through the metal detector."
+},
+{
+  "topic": "travel",
+  "word": "passport control",
+  "partOfSpeech": "noun",
+  "definition": "the place where passports are checked",
+  "translation": {
+    "sr": "pasoška kontrola",
+    "ru": "паспортный контроль"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We waited at passport control."
+},
+{
+  "topic": "travel",
+  "word": "identity",
+  "partOfSpeech": "noun",
+  "definition": "the fact of who a person is",
+  "translation": {
+    "sr": "identitet",
+    "ru": "личность / идентичность"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "You must prove your identity."
+},
+{
+  "topic": "travel",
+  "word": "passport",
+  "partOfSpeech": "noun",
+  "definition": "an official document used for international travel",
+  "translation": {
+    "sr": "pasoš",
+    "ru": "паспорт"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Do not forget your passport."
+},
+{
+  "topic": "travel",
+  "word": "identity card",
+  "partOfSpeech": "noun",
+  "definition": "an official card that proves who you are",
+  "translation": {
+    "sr": "lična karta",
+    "ru": "удостоверение личности"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "You can use your identity card for this journey."
+},
+{
+  "topic": "travel",
+  "word": "customs",
+  "partOfSpeech": "noun",
+  "definition": "the place where officials check goods entering a country",
+  "translation": {
+    "sr": "carina",
+    "ru": "таможня"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We had nothing to declare at customs."
+},
+{
+  "topic": "travel",
+  "word": "green channel",
+  "partOfSpeech": "noun",
+  "definition": "the customs route for travellers with nothing to declare",
+  "translation": {
+    "sr": "zeleni prolaz",
+    "ru": "зелёный коридор"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Use the green channel if you have nothing to declare."
+},
+{
+  "topic": "travel",
+  "word": "red channel",
+  "partOfSpeech": "noun",
+  "definition": "the customs route for travellers with goods to declare",
+  "translation": {
+    "sr": "crveni prolaz",
+    "ru": "красный коридор"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Use the red channel if you have goods to declare."
+},
+{
+  "topic": "travel",
+  "word": "goods to declare",
+  "partOfSpeech": "noun phrase",
+  "definition": "items that must be reported to customs",
+  "translation": {
+    "sr": "roba za prijavljivanje",
+    "ru": "товары для декларирования"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Do you have any goods to declare?"
+},
+{
+  "topic": "travel",
+  "word": "departure lounge",
+  "partOfSpeech": "noun",
+  "definition": "the waiting area for passengers before boarding",
+  "translation": {
+    "sr": "čekaonica za putnike pre ukrcavanja",
+    "ru": "зал вылета"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We waited in the departure lounge."
+},
+{
+  "topic": "travel",
+  "word": "announcement",
+  "partOfSpeech": "noun",
+  "definition": "information spoken or shown publicly",
+  "translation": {
+    "sr": "obaveštenje",
+    "ru": "объявление"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Listen carefully to the boarding announcement."
+},
+{
+  "topic": "travel",
+  "word": "boarding",
+  "partOfSpeech": "noun",
+  "definition": "the process of getting onto a plane, train or ship",
+  "translation": {
+    "sr": "ukrcavanje",
+    "ru": "посадка"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Boarding starts at 6:45."
+},
+{
+  "topic": "travel",
+  "word": "gate",
+  "partOfSpeech": "noun",
+  "definition": "the place where passengers get onto a plane",
+  "translation": {
+    "sr": "izlaz za ukrcavanje",
+    "ru": "выход на посадку"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Our gate has changed."
+},
+{
+  "topic": "travel",
+  "word": "seat number",
+  "partOfSpeech": "noun",
+  "definition": "the number of your assigned seat",
+  "translation": {
+    "sr": "broj sedišta",
+    "ru": "номер места"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "My seat number is 14A."
+},
+{
+  "topic": "travel",
+  "word": "aisle seat",
+  "partOfSpeech": "noun",
+  "definition": "a seat next to the aisle",
+  "translation": {
+    "sr": "sedište do prolaza",
+    "ru": "место у прохода"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "I prefer an aisle seat."
+},
+{
+  "topic": "travel",
+  "word": "window seat",
+  "partOfSpeech": "noun",
+  "definition": "a seat next to the window",
+  "translation": {
+    "sr": "sedište do prozora",
+    "ru": "место у окна"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Could I have a window seat?"
+},
+{
+  "topic": "travel",
+  "word": "track",
+  "partOfSpeech": "noun",
+  "definition": "the rails that a train travels on",
+  "translation": {
+    "sr": "šina / kolosek",
+    "ru": "железнодорожный путь"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "The train is waiting on track three."
+},
+{
+  "topic": "travel",
+  "word": "coach",
+  "partOfSpeech": "noun",
+  "definition": "a comfortable bus used for long journeys",
+  "translation": {
+    "sr": "autobus za duža putovanja",
+    "ru": "междугородний автобус"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We travelled to the coast by coach."
+},
+{
+  "topic": "travel",
+  "word": "car",
+  "partOfSpeech": "noun",
+  "definition": "a road vehicle with four wheels",
+  "translation": {
+    "sr": "automobil",
+    "ru": "автомобиль"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We rented a car at the airport."
+},
+{
+  "topic": "travel",
+  "word": "booking reference",
+  "partOfSpeech": "noun",
+  "definition": "a code used to identify a reservation",
+  "translation": {
+    "sr": "broj / šifra rezervacije",
+    "ru": "номер бронирования"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Please have your booking reference ready."
+},
+{
+  "topic": "travel",
+  "word": "conveyor belt",
+  "partOfSpeech": "noun",
+  "definition": "a moving belt that carries luggage",
+  "translation": {
+    "sr": "pokretna traka za prtljag",
+    "ru": "багажная лента"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Our suitcases arrived on the conveyor belt."
+},
+{
+  "topic": "travel",
+  "word": "immigration officer",
+  "partOfSpeech": "noun",
+  "definition": "an official who checks people entering a country",
+  "translation": {
+    "sr": "službenik imigracione službe",
+    "ru": "сотрудник иммиграционной службы"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "The immigration officer checked my passport."
+},
+{
+  "topic": "travel",
+  "word": "to miss a flight",
+  "partOfSpeech": "verb phrase",
+  "definition": "to arrive too late to take a flight",
+  "translation": {
+    "sr": "propustiti let",
+    "ru": "опоздать на рейс"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We missed our flight because of traffic."
+},
+{
+  "topic": "travel",
+  "word": "to miss a train",
+  "partOfSpeech": "verb phrase",
+  "definition": "to arrive too late to take a train",
+  "translation": {
+    "sr": "propustiti voz",
+    "ru": "опоздать на поезд"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "I missed the train by two minutes."
+},
+{
+  "topic": "travel",
+  "word": "to miss a connection",
+  "partOfSpeech": "verb phrase",
+  "definition": "to fail to catch the next part of a journey",
+  "translation": {
+    "sr": "propustiti vezu / presedanje",
+    "ru": "опоздать на пересадку"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We missed our connection in Frankfurt."
+},
+{
+  "topic": "travel",
+  "word": "to run out of fuel",
+  "partOfSpeech": "verb phrase",
+  "definition": "to have no fuel left",
+  "translation": {
+    "sr": "ostati bez goriva",
+    "ru": "остаться без топлива"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "The car ran out of fuel on the motorway."
+},
+{
+  "topic": "travel",
+  "word": "to break down",
+  "partOfSpeech": "phrasal verb",
+  "definition": "to stop working because of a problem",
+  "translation": {
+    "sr": "pokvariti se",
+    "ru": "сломаться"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Our car broke down on the way to the airport."
+},
+{
+  "topic": "travel",
+  "word": "rush hour",
+  "partOfSpeech": "noun",
+  "definition": "the busy time when many people travel to and from work",
+  "translation": {
+    "sr": "saobraćajni špic",
+    "ru": "час пик"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "The roads are busy during rush hour."
+},
+{
+  "topic": "travel",
+  "word": "traffic jam",
+  "partOfSpeech": "noun",
+  "definition": "a long line of vehicles that cannot move quickly",
+  "translation": {
+    "sr": "saobraćajna gužva",
+    "ru": "пробка"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We were stuck in a traffic jam."
+},
+{
+  "topic": "travel",
+  "word": "to get lost",
+  "partOfSpeech": "verb phrase",
+  "definition": "to be unable to find the right way",
+  "translation": {
+    "sr": "izgubiti se",
+    "ru": "заблудиться"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "We got lost in the city centre."
+},
+{
+  "topic": "travel",
+  "word": "long delay",
+  "partOfSpeech": "noun",
+  "definition": "a delay that lasts a long time",
+  "translation": {
+    "sr": "dugo kašnjenje",
+    "ru": "длительная задержка"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "There was a long delay at the airport."
+},
+{
+  "topic": "travel",
+  "word": "cancelled",
+  "partOfSpeech": "adjective",
+  "definition": "officially stopped and not going to happen",
+  "translation": {
+    "sr": "otkazan",
+    "ru": "отменённый"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "The train was cancelled because of bad weather."
+},
+{
+  "topic": "travel",
+  "word": "not valid",
+  "partOfSpeech": "phrase",
+  "definition": "not legally or officially accepted",
+  "translation": {
+    "sr": "nevažeći",
+    "ru": "недействительный"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "This ticket is not valid for the express train."
+},
+{
+  "topic": "travel",
+  "word": "to pay a supplement",
+  "partOfSpeech": "verb phrase",
+  "definition": "to pay an extra amount in addition to the basic price",
+  "translation": {
+    "sr": "platiti doplatu",
+    "ru": "доплатить"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "You have to pay a supplement for a first-class seat."
+},
+{
+  "topic": "travel",
+  "word": "standard ticket",
+  "partOfSpeech": "noun",
+  "definition": "a ticket for normal or basic travel",
+  "translation": {
+    "sr": "standardna karta",
+    "ru": "стандартный билет"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "A standard ticket is cheaper."
+},
+{
+  "topic": "travel",
+  "word": "full fare",
+  "partOfSpeech": "noun",
+  "definition": "the normal price of a ticket without a discount",
+  "translation": {
+    "sr": "puna cena karte",
+    "ru": "полная стоимость билета"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "I paid the full fare because I had no discount card."
+},
+{
+  "topic": "frequency",
+  "word": "always",
+  "partOfSpeech": "adverb",
+  "definition": "at all times; on every occasion",
+  "translation": {
+    "sr": "uvek",
+    "ru": "всегда"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "I always check my passport before travelling."
+},
+{
+  "topic": "frequency",
+  "word": "normally",
+  "partOfSpeech": "adverb",
+  "definition": "in the usual or expected way",
+  "translation": {
+    "sr": "normalno / obično",
+    "ru": "обычно"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "We normally arrive an hour early."
+},
+{
+  "topic": "frequency",
+  "word": "often",
+  "partOfSpeech": "adverb",
+  "definition": "many times; frequently",
+  "translation": {
+    "sr": "često",
+    "ru": "часто"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "I often take the bus to the airport."
+},
+{
+  "topic": "frequency",
+  "word": "frequently",
+  "partOfSpeech": "adverb",
+  "definition": "often; many times",
+  "translation": {
+    "sr": "često",
+    "ru": "часто"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "Flights are frequently delayed in winter."
+},
+{
+  "topic": "frequency",
+  "word": "regularly",
+  "partOfSpeech": "adverb",
+  "definition": "at regular times or intervals",
+  "translation": {
+    "sr": "redovno",
+    "ru": "регулярно"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "The airport bus runs regularly."
+},
+{
+  "topic": "frequency",
+  "word": "sometimes",
+  "partOfSpeech": "adverb",
+  "definition": "on some occasions but not always",
+  "translation": {
+    "sr": "ponekad",
+    "ru": "иногда"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "I sometimes travel alone."
+},
+{
+  "topic": "frequency",
+  "word": "occasionally",
+  "partOfSpeech": "adverb",
+  "definition": "sometimes, but not often",
+  "translation": {
+    "sr": "povremeno",
+    "ru": "время от времени"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "We occasionally travel by coach."
+},
+{
+  "topic": "frequency",
+  "word": "rarely",
+  "partOfSpeech": "adverb",
+  "definition": "not often",
+  "translation": {
+    "sr": "retko",
+    "ru": "редко"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "I rarely miss a train."
+},
+{
+  "topic": "frequency",
+  "word": "seldom",
+  "partOfSpeech": "adverb",
+  "definition": "not often; rarely",
+  "translation": {
+    "sr": "retko",
+    "ru": "редко"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "He seldom travels abroad."
+},
+{
+  "topic": "frequency",
+  "word": "hardly ever",
+  "partOfSpeech": "adverb phrase",
+  "definition": "almost never",
+  "translation": {
+    "sr": "gotovo nikada",
+    "ru": "почти никогда"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "I hardly ever travel during rush hour."
+},
+{
+  "topic": "frequency",
+  "word": "almost always",
+  "partOfSpeech": "adverb phrase",
+  "definition": "on nearly every occasion",
+  "translation": {
+    "sr": "skoro uvek",
+    "ru": "почти всегда"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "I almost always check in online."
+},
+{
+  "topic": "frequency",
+  "word": "almost never",
+  "partOfSpeech": "adverb phrase",
+  "definition": "on very few occasions",
+  "translation": {
+    "sr": "skoro nikada",
+    "ru": "почти никогда"
+  },
+  "lessonId": "lesson-06",
+  "category": "frequency",
+  "example": "We almost never travel without luggage."
+}
+,
+{
+  "topic": "news",
+  "word": "political",
+  "partOfSpeech": "adjective",
+  "definition": "connected with politics or government",
+  "translation": {
+    "sr": "politički",
+    "ru": "политический"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "They discussed a political issue."
+},
+{
+  "topic": "news",
+  "word": "President",
+  "partOfSpeech": "noun",
+  "definition": "the elected or appointed head of a republic",
+  "translation": {
+    "sr": "predsednik",
+    "ru": "президент"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The President met foreign leaders."
+},
+{
+  "topic": "news",
+  "word": "interest rates",
+  "partOfSpeech": "noun",
+  "definition": "the cost of borrowing money, usually shown as a percentage",
+  "translation": {
+    "sr": "kamatne stope",
+    "ru": "процентные ставки"
+  },
+  "lessonId": "lesson-04",
+  "category": "news",
+  "example": "The central bank changed interest rates."
+},
+{
+  "topic": "technology",
+  "word": "address",
+  "partOfSpeech": "noun",
+  "definition": "the details used to find a website or send a message",
+  "translation": {
+    "sr": "adresa",
+    "ru": "адрес"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "Enter the website address in your browser."
+},
+{
+  "topic": "technology",
+  "word": "web address",
+  "partOfSpeech": "noun",
+  "definition": "the address of a website on the Internet",
+  "translation": {
+    "sr": "veb-adresa",
+    "ru": "веб-адрес"
+  },
+  "lessonId": "lesson-05",
+  "category": "technology",
+  "example": "Type the web address into the browser."
+},
+{
+  "topic": "emails",
+  "word": "Mr.",
+  "partOfSpeech": "title",
+  "definition": "a title used before a man's surname",
+  "translation": {
+    "sr": "gospodin",
+    "ru": "господин"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Dear Mr Smith,"
+},
+{
+  "topic": "emails",
+  "word": "Ms.",
+  "partOfSpeech": "title",
+  "definition": "a title used before a woman's surname when marital status is not specified",
+  "translation": {
+    "sr": "gospođa",
+    "ru": "госпожа"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Dear Ms Jones,"
+},
+{
+  "topic": "emails",
+  "word": "Mrs.",
+  "partOfSpeech": "title",
+  "definition": "a title traditionally used before a married woman's surname",
+  "translation": {
+    "sr": "gospođa",
+    "ru": "госпожа"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Dear Mrs Brown,"
+},
+{
+  "topic": "emails",
+  "word": "Miss",
+  "partOfSpeech": "title",
+  "definition": "a title traditionally used before an unmarried woman's surname",
+  "translation": {
+    "sr": "gospođica",
+    "ru": "мисс"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Dear Miss Taylor,"
+},
+{
+  "topic": "emails",
+  "word": "Sir",
+  "partOfSpeech": "noun",
+  "definition": "a polite way to address a man when you do not know his name",
+  "translation": {
+    "sr": "gospodine",
+    "ru": "сэр"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Dear Sir,"
+},
+{
+  "topic": "emails",
+  "word": "Madam",
+  "partOfSpeech": "noun",
+  "definition": "a polite way to address a woman when you do not know her name",
+  "translation": {
+    "sr": "gospođo",
+    "ru": "мадам"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Dear Madam,"
+},
+{
+  "topic": "emails",
+  "word": "Best regards",
+  "partOfSpeech": "email closing",
+  "definition": "a polite and friendly way to end a professional email",
+  "translation": {
+    "sr": "Srdačan pozdrav",
+    "ru": "С наилучшими пожеланиями"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Best regards, Alex"
+},
+{
+  "topic": "emails",
+  "word": "Attached is",
+  "partOfSpeech": "email phrase",
+  "definition": "a phrase used to introduce a file included with an email",
+  "translation": {
+    "sr": "U prilogu je",
+    "ru": "Во вложении находится"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Attached is the requested document."
+},
+{
+  "topic": "emails",
+  "word": "Please find attached",
+  "partOfSpeech": "email phrase",
+  "definition": "a formal phrase introducing an attached file",
+  "translation": {
+    "sr": "U prilogu vam dostavljam",
+    "ru": "Во вложении вы найдёте"
+  },
+  "lessonId": "lesson-05",
+  "category": "emails",
+  "example": "Please find attached the completed form."
+},
+{
+  "topic": "travel",
+  "word": "carriage",
+  "partOfSpeech": "noun",
+  "definition": "one of the separate vehicles that make up a train",
+  "translation": {
+    "sr": "vagon",
+    "ru": "железнодорожный вагон"
+  },
+  "lessonId": "lesson-06",
+  "category": "travel",
+  "example": "Our seats are in the first carriage."
+}
+,
+{
+  "topic": "life-events",
+  "word": "kids",
+  "partOfSpeech": "plural noun",
+  "definition": "children; informal word for young people",
+  "translation": {
+    "sr": "deca",
+    "ru": "дети"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "They have two kids."
+},
+{
+  "topic": "life-events",
+  "word": "to have kids",
+  "partOfSpeech": "verb phrase",
+  "definition": "to become a parent; informal alternative to “have children”",
+  "translation": {
+    "sr": "imati decu",
+    "ru": "иметь детей"
+  },
+  "lessonId": "lesson-02",
+  "category": "life events",
+  "example": "They want to have kids one day."
+}
 ];
 const supplementaryVocabulary = supplementaryRows.map((item,index)=>({id:`extra-${String(index+1).padStart(4,"0")}`,...item}));
 vocabulary.push(...supplementaryVocabulary);

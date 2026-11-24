@@ -24,3 +24,13 @@ h1,h2,h3,p{margin-top:0}.eyebrow{font-size:10px;letter-spacing:1.5px;text-transf
 .exercise-review{max-width:760px;margin:24px auto;text-align:left;display:grid;gap:10px}.exercise-review h3{font-size:15px}.exercise-review article{display:grid;gap:5px;text-align:left;padding:13px;border:1px solid var(--line);border-radius:10px}.exercise-review article>small{color:var(--muted);line-height:1.5}.exercise-review article>strong{font-size:13px}.exercise-review article p{font-size:11px;margin:0;color:var(--muted)}
 
 .game-hint-box{margin:0 0 16px;padding:13px 15px;border:1px solid var(--blue);border-left:4px solid var(--blue);border-radius:10px;background:var(--soft);color:var(--ink);display:grid;gap:5px;font-size:12px;line-height:1.6;box-shadow:0 4px 14px rgba(19,64,116,.08)}.game-hint-box[hidden]{display:none}.game-hint-box strong{color:var(--blue);font-size:11px;text-transform:uppercase;letter-spacing:.06em}.game-hint-box span{display:block}
+
+
+/* Lesson 6: responsive adverbs-of-frequency reference table */
+.table-wrap{width:100%;overflow-x:auto;margin:1rem 0;border:1px solid var(--border-color,rgba(120,130,160,.18));border-radius:14px}
+.frequency-table{width:100%;border-collapse:collapse;min-width:620px;background:var(--card,transparent)}
+.frequency-table th,.frequency-table td{padding:13px 15px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border-color,rgba(120,130,160,.14));line-height:1.5}
+.frequency-table th{font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted,#777);background:rgba(120,130,160,.07)}
+.frequency-table tbody tr:last-child td{border-bottom:0}
+.frequency-table td:nth-child(2){white-space:nowrap}
+@media(max-width:640px){.frequency-table th,.frequency-table td{padding:10px 12px;font-size:.88rem}}

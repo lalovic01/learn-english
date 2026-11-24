@@ -1256,6 +1256,197 @@ export const lessonContent = {
         "sr": "Prilozi za učestalost opisuju koliko često se nešto dešava. Od najčešćeg ka najređem: always, usually, often, sometimes, occasionally, rarely, hardly ever i never. Njihov procenat nije strogo određen; izražavaju približnu učestalost.",
         "ru": "Наречия частотности показывают, как часто что-то происходит. От наиболее частого к редкому: always, usually, often, sometimes, occasionally, rarely, hardly ever и never. Точный процент не установлен; слова обозначают приблизительную частоту."
       },
+      "table": {
+  "headers": {
+    "en": [
+      "Frequency",
+      "Main adverb",
+      "Related words / similar meaning"
+    ],
+    "sr": [
+      "Učestalost",
+      "Glavni prilog",
+      "Povezane reči / slično značenje"
+    ],
+    "ru": [
+      "Частотность",
+      "Основное наречие",
+      "Связанные слова / близкое значение"
+    ]
+  },
+  "rows": [
+    {
+      "frequency": {
+        "en": "100%",
+        "sr": "100%",
+        "ru": "100%"
+      },
+      "main": {
+        "en": "always",
+        "sr": "uvek",
+        "ru": "всегда"
+      },
+      "related": {
+        "en": "—",
+        "sr": "—",
+        "ru": "—"
+      }
+    },
+    {
+      "frequency": {
+        "en": "Very high",
+        "sr": "Veoma često",
+        "ru": "Очень часто"
+      },
+      "main": {
+        "en": "almost always",
+        "sr": "skoro uvek",
+        "ru": "почти всегда"
+      },
+      "related": {
+        "en": "nearly always",
+        "sr": "gotovo uvek",
+        "ru": "почти всегда"
+      }
+    },
+    {
+      "frequency": {
+        "en": "High",
+        "sr": "Visoka",
+        "ru": "Высокая"
+      },
+      "main": {
+        "en": "usually",
+        "sr": "obično",
+        "ru": "обычно"
+      },
+      "related": {
+        "en": "generally, normally, mostly",
+        "sr": "uglavnom, normalno",
+        "ru": "в основном, обычно"
+      }
+    },
+    {
+      "frequency": {
+        "en": "Quite high",
+        "sr": "Prilično visoka",
+        "ru": "Довольно высокая"
+      },
+      "main": {
+        "en": "often",
+        "sr": "često",
+        "ru": "часто"
+      },
+      "related": {
+        "en": "frequently, regularly",
+        "sr": "učestalo, redovno",
+        "ru": "нередко, регулярно"
+      }
+    },
+    {
+      "frequency": {
+        "en": "Medium-high",
+        "sr": "Srednje visoka",
+        "ru": "Выше средней"
+      },
+      "main": {
+        "en": "quite often",
+        "sr": "prilično često",
+        "ru": "довольно часто"
+      },
+      "related": {
+        "en": "fairly often",
+        "sr": "dosta često",
+        "ru": "достаточно часто"
+      }
+    },
+    {
+      "frequency": {
+        "en": "Medium",
+        "sr": "Srednja",
+        "ru": "Средняя"
+      },
+      "main": {
+        "en": "sometimes",
+        "sr": "ponekad",
+        "ru": "иногда"
+      },
+      "related": {
+        "en": "occasionally, from time to time, now and then",
+        "sr": "povremeno, s vremena na vreme",
+        "ru": "время от времени"
+      }
+    },
+    {
+      "frequency": {
+        "en": "Medium-low",
+        "sr": "Srednje niska",
+        "ru": "Ниже средней"
+      },
+      "main": {
+        "en": "not often",
+        "sr": "ne često",
+        "ru": "нечасто"
+      },
+      "related": {
+        "en": "infrequently",
+        "sr": "retko",
+        "ru": "редко"
+      }
+    },
+    {
+      "frequency": {
+        "en": "Low",
+        "sr": "Niska",
+        "ru": "Низкая"
+      },
+      "main": {
+        "en": "rarely",
+        "sr": "retko",
+        "ru": "редко"
+      },
+      "related": {
+        "en": "seldom, hardly ever",
+        "sr": "gotovo nikada",
+        "ru": "почти никогда"
+      }
+    },
+    {
+      "frequency": {
+        "en": "Very low",
+        "sr": "Veoma niska",
+        "ru": "Очень низкая"
+      },
+      "main": {
+        "en": "almost never",
+        "sr": "skoro nikada",
+        "ru": "почти никогда"
+      },
+      "related": {
+        "en": "hardly ever",
+        "sr": "gotovo nikada",
+        "ru": "едва ли когда-либо"
+      }
+    },
+    {
+      "frequency": {
+        "en": "0%",
+        "sr": "0%",
+        "ru": "0%"
+      },
+      "main": {
+        "en": "never",
+        "sr": "nikada",
+        "ru": "никогда"
+      },
+      "related": {
+        "en": "not ever",
+        "sr": "—",
+        "ru": "—"
+      }
+    }
+  ]
+},
       "examples": [
         {
           "en": "I always check my passport before a trip.",

@@ -173,4 +173,34 @@ for (const item of vocabEntries) {
   });
 }
 
-export const exerciseBank = [...exercises, ...grammarExtras, ...vocabExtras, ...vocabFillExtras];
+
+
+const expandedLessonExercises = [
+{"id": "expanded-001", "category": "Lesson 2 — Life events", "type": "choice", "question": "When I finished university, I _____ from engineering.", "explanation": "Use “graduate from” when you complete a course or degree.", "options": ["graduated", "retired", "got divorced", "moved house"], "answer": "graduated"},
+{"id": "expanded-002", "category": "Lesson 2 — Life events", "type": "fill", "question": "My sister _____ a new job last month. (get)", "explanation": "Use the Past Simple form “got”.", "answers": ["got"]},
+{"id": "expanded-003", "category": "Lesson 2 — Education", "type": "choice", "question": "Which phrase means “to begin studying at a university”?", "explanation": "“Go to university” means to study at a university.", "options": ["to go to university", "to leave a company", "to get fired", "to retire"], "answer": "to go to university"},
+{"id": "expanded-004", "category": "Lesson 2 — Life events", "type": "choice", "question": "He _____ promoted after two years at the company.", "explanation": "The correct collocation is “get promoted”.", "options": ["got", "made", "did", "had"], "answer": "got"},
+{"id": "expanded-005", "category": "Lesson 4 — News", "type": "choice", "question": "A person who sees an event and can describe it is a _____.", "explanation": "A witness is someone who saw an event.", "options": ["witness", "thief", "politician", "forecast"], "answer": "witness"},
+{"id": "expanded-006", "category": "Lesson 4 — News", "type": "fill", "question": "The _____ reported that prices had increased. (news word: financial system)", "explanation": "“The economy” refers to a country's system of money, trade and business.", "answers": ["economy"]},
+{"id": "expanded-007", "category": "Lesson 4 — News", "type": "choice", "question": "A long period of very heavy rain can cause a _____.", "explanation": "A flood happens when water covers normally dry land.", "options": ["flood", "hurricane", "witness", "government"], "answer": "flood"},
+{"id": "expanded-008", "category": "Lesson 4 — News", "type": "choice", "question": "Which word is the plural of “thief”?", "explanation": "The plural spelling is thief → thieves.", "options": ["thieves", "thiefs", "thiefes", "thievies"], "answer": "thieves"},
+{"id": "expanded-009", "category": "Lesson 5 — IT", "type": "choice", "question": "Which device do you use to type text into a computer?", "explanation": "A keyboard is used for typing.", "options": ["keyboard", "scanner", "mouse", "memory stick"], "answer": "keyboard"},
+{"id": "expanded-010", "category": "Lesson 5 — IT", "type": "fill", "question": "A program used to open and view websites is a _____.", "explanation": "A browser lets you visit websites.", "answers": ["browser"]},
+{"id": "expanded-011", "category": "Lesson 5 — Emails", "type": "choice", "question": "Which is a suitable formal email opening when you do not know the person's name?", "explanation": "Use “Dear Sir/Madam” in a formal email when the recipient's name is unknown.", "options": ["Dear Sir/Madam,", "Hey you,", "What's up,", "See you,"], "answer": "Dear Sir/Madam,"},
+{"id": "expanded-012", "category": "Lesson 5 — Purpose", "type": "choice", "question": "I use a search engine _____ information online.", "explanation": "Use to + base verb to explain purpose.", "options": ["to find", "for find", "because find", "finding to"], "answer": "to find"},
+{"id": "expanded-013", "category": "Lesson 6 — Airport", "type": "choice", "question": "Where do passengers wait before they board a flight?", "explanation": "The departure lounge is the waiting area before boarding.", "options": ["departure lounge", "conveyor belt", "platform", "customs"], "answer": "departure lounge"},
+{"id": "expanded-014", "category": "Lesson 6 — Airport", "type": "fill", "question": "You need your _____ pass to get on the plane. (board)", "explanation": "The expression is “boarding pass”.", "answers": ["boarding"]},
+{"id": "expanded-015", "category": "Lesson 6 — Airport", "type": "choice", "question": "Where do you collect your suitcases after a flight?", "explanation": "Luggage often arrives on a conveyor belt.", "options": ["conveyor belt", "departure lounge", "gate", "platform"], "answer": "conveyor belt"},
+{"id": "expanded-016", "category": "Lesson 6 — Travel problems", "type": "choice", "question": "If your car stops working unexpectedly, it _____.", "explanation": "“Break down” means to stop working because of a problem.", "options": ["breaks down", "checks in", "takes off", "gets promoted"], "answer": "breaks down"},
+{"id": "expanded-017", "category": "Lesson 6 — Travel problems", "type": "fill", "question": "We were late because we got stuck in a traffic _____.", "explanation": "The full expression is “traffic jam”.", "answers": ["jam"]},
+{"id": "expanded-018", "category": "Lesson 6 — Frequency", "type": "choice", "question": "I _____ travel by plane; perhaps once every five years.", "explanation": "“Rarely” means not often.", "options": ["rarely", "always", "usually", "often"], "answer": "rarely"},
+{"id": "expanded-019", "category": "Lesson 6 — Frequency", "type": "choice", "question": "Choose the correct sentence.", "explanation": "With the verb “be”, the adverb usually comes after the verb.", "options": ["She is usually on time.", "She usually is on time.", "She usually on time is.", "Usually she on time is."], "answer": "She is usually on time."},
+{"id": "expanded-020", "category": "Lesson 6 — Frequency", "type": "choice", "question": "Which expression is closest in meaning to “sometimes”?", "explanation": "“Occasionally” means sometimes, but not often.", "options": ["occasionally", "never", "always", "hardly ever"], "answer": "occasionally"},
+{"id": "expanded-021", "category": "Lesson 6 — Frequency", "type": "fill", "question": "I _____ check my passport before every trip. (100%)", "explanation": "“Always” expresses 100% frequency.", "answers": ["always"]},
+{"id": "expanded-022", "category": "Lesson 6 — Travel procedures", "type": "choice", "question": "You show your passport at _____.", "explanation": "Passports are checked at passport control.", "options": ["passport control", "the conveyor belt", "the departure lounge", "the platform"], "answer": "passport control"},
+{"id": "expanded-023", "category": "Lesson 6 — Tickets", "type": "choice", "question": "If your ticket is not valid for this train, you may have to _____.", "explanation": "A supplement is an extra payment.", "options": ["pay a supplement", "check in online", "get lost", "miss a witness"], "answer": "pay a supplement"},
+{"id": "expanded-024", "category": "Lesson 6 — Travel", "type": "fill", "question": "We had to _____ to another train in Munich. (change transport)", "explanation": "“Transfer” means to change from one service or vehicle to another.", "answers": ["transfer"]}
+];
+
+export const exerciseBank = [...exercises, ...grammarExtras, ...vocabExtras, ...vocabFillExtras, ...expandedLessonExercises];
+

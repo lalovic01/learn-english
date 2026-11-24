@@ -1,4 +1,4 @@
-# EnglishHub B1.1 — Phase 11: Expanded Randomised Exercises
+# EnglishHub B1.1 — Phase 13: Expanded Live Language Course
 
 Cumulative static-site package with substantially expanded teaching material for all six B1.1 lessons, plus exercises, games, tests, analytics and speaking practice.
 
@@ -9,8 +9,8 @@ python -m http.server 8000
 Open `http://localhost:8000`.
 
 ## Implemented
-- Expanded exercise bank with 1,018 questions: 87 grammar questions and 931 vocabulary questions
-- Vocabulary practice includes multiple-choice translation questions and contextual sentence-completion questions, using the 471-word course vocabulary
+- Expanded exercise bank with 1,271 questions, including the original grammar/vocabulary bank plus 24 new lesson-focused questions
+- Vocabulary practice includes multiple-choice translation questions and contextual sentence-completion questions, using the 607-word course vocabulary
 - Each new session selects a random set without repeating questions inside that session; answer options are shuffled as well
 - Session sizes: 10, 20, 30, 50 or all available questions; practice modes: mixed, grammar only or vocabulary only
 - Immediate feedback and explanations after every answer; final results include accuracy and a review list of incorrect answers
@@ -18,7 +18,7 @@ Open `http://localhost:8000`.
 - Six expanded B1.1 lesson units containing 33 detailed teaching sections and 134 translated examples/dialogues, plus 11 fully explained greeting expressions
 - Lesson 1 teaches all eleven requested greeting expressions, including context, formality, examples, follow-up questions and ways to end a conversation
 - Lessons 2–6 provide structured explanations, examples, usage guidance and practical tasks for past events, life experiences, storytelling, professional communication, technology, travel and frequency
-- Eleven grammar guides and 471 vocabulary entries (411 added in Phase 10), with Serbian and Russian translations, parts of speech and contextual example sentences
+- Eleven grammar guides and 607 vocabulary entries, including expanded life events, education, news, IT/email and travel vocabulary, with Serbian and Russian translations, parts of speech and contextual example sentences
 - Fourteen games and nine formal test options
 - Test scoring and detailed answer review
 - Local progress analytics: lesson/grammar/vocabulary completion, exercise accuracy, games, tests, activity streak and study time by section
@@ -70,3 +70,14 @@ The current exercise bank contains 1,018 unique records: 87 grammar questions, 4
 - True/False statements use the selected language for the displayed meaning, and the True/False controls are localised.
 - Speed Quiz uses the same language-aware question generator and no longer labels options as Serbian translations.
 - Hints appear directly below the question in a highlighted panel. Vocabulary hints provide part of speech, word length and a letter pattern; other games provide contextual clues.
+
+
+## Phase 13 additions
+- Added the requested Lesson 2 life-event and education expressions, including school, university, graduation, career changes and family milestones.
+- Expanded Lesson 4 news vocabulary: politics, political issues, weather forecasts, government, the economy, inflation, unemployment, crime, witnesses and natural disasters.
+- Expanded Lesson 5 computer, Internet and email vocabulary, including hardware, software, browsers, web pages, search engines, attachments and formal email expressions.
+- Expanded Lesson 6 airport, railway, customs, documents, boarding, luggage and travel-problem vocabulary.
+- Added 24 targeted exercises covering the newly expanded lesson topics, in addition to the automatic vocabulary exercises.
+- Added a full three-column frequency reference table to Lesson 6, with ten practical frequency levels and localized English, Serbian and Russian labels.
+- Added responsive horizontal scrolling for the frequency table on smaller screens.
+- Frequency guidance distinguishes approximate frequency from exact percentages and includes the normal position of adverbs in sentences.

@@ -1,5 +1,5 @@
-import { initRouter } from "./core/router.js?v=sidebar-scroll-1";
-import { initShell } from "./components/shell.js?v=sidebar-scroll-1";
+import { initRouter } from "./core/router.js";
+import { initShell } from "./components/shell.js";
 import { renderPage } from "./pages/pages.js";
 import { getSettings } from "./core/storage.js";
 import { setLanguage } from "./core/i18n.js";
