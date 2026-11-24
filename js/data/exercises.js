@@ -1,3 +1,4 @@
+import { additionalExercises } from "./exercise-additions.js";
 import { vocabulary as vocabularyWords } from "./vocabulary.js";
 
 export const exercises = [
@@ -72,7 +73,7 @@ const grammarSeeds = [
 ["Infinitive of Purpose","They saved money _____ a new car.","to buy",["for buy","buy","for buying"],"Use to + infinitive to state the purpose of saving."],
 ["Infinitive of Purpose","He left early _____ being late for the interview.","so as not to risk",["for not risk","so as not risking","not to risking"],"So as not to + base verb expresses a negative purpose."],
 ["Adverbs of Frequency","My sister _____ checks her emails before breakfast.","usually",["usual","usualness","use"],"Usually is an adverb of frequency and normally comes before the main verb."],
-["Adverbs of Frequency","They are _____ late for work; they are very punctual.","hardly ever",["hard ever","hardly never","ever hardly"],"Hardly ever means almost never and follows the verb be."],
+["Adverbs of Frequency","They are _____ late for work; they are very punctual.","rarely",["rare","rarelyly","rarity"],"Rarely means not often and follows the verb be."],
 ["Adverbs of Frequency","How _____ do you visit your grandparents?","often",["many","long","much"],"How often asks about frequency."],
 ["Adverbs of Frequency","He doesn't _____ eat meat.","usually",["usual","use","usualness"],"Usually can appear after an auxiliary negative and before the main verb."],
 ["Adverbs of Frequency","I _____ go to the gym on Mondays, but not every week.","sometimes",["some time","sometime","some times"],"Sometimes is the frequency adverb meaning on some occasions."],
@@ -104,7 +105,7 @@ const grammarSeeds = [
 
 const grammarExtras = grammarSeeds.map((row,index)=>({id:`gx-${String(index+1).padStart(3,"0")}`,category:row[0],type:"choice",question:row[1],answer:row[2],options:[row[2],...row[3]],explanation:row[4]}));
 
-// Build a large offline vocabulary question bank from the 471 curated course entries.
+// Build a large offline vocabulary question bank from the 604 curated course entries.
 // Serbian prompts are unique; distractors are drawn from the same part of speech where possible.
 const vocabEntries = vocabularyWords.filter(v => v.translation?.sr && v.word && /^[\p{L}][\p{L} '-]*$/u.test(v.word));
 const translationSeen = new Set();
@@ -195,12 +196,12 @@ const expandedLessonExercises = [
 {"id": "expanded-017", "category": "Lesson 6 — Travel problems", "type": "fill", "question": "We were late because we got stuck in a traffic _____.", "explanation": "The full expression is “traffic jam”.", "answers": ["jam"]},
 {"id": "expanded-018", "category": "Lesson 6 — Frequency", "type": "choice", "question": "I _____ travel by plane; perhaps once every five years.", "explanation": "“Rarely” means not often.", "options": ["rarely", "always", "usually", "often"], "answer": "rarely"},
 {"id": "expanded-019", "category": "Lesson 6 — Frequency", "type": "choice", "question": "Choose the correct sentence.", "explanation": "With the verb “be”, the adverb usually comes after the verb.", "options": ["She is usually on time.", "She usually is on time.", "She usually on time is.", "Usually she on time is."], "answer": "She is usually on time."},
-{"id": "expanded-020", "category": "Lesson 6 — Frequency", "type": "choice", "question": "Which expression is closest in meaning to “sometimes”?", "explanation": "“Occasionally” means sometimes, but not often.", "options": ["occasionally", "never", "always", "hardly ever"], "answer": "occasionally"},
+{"id": "expanded-020", "category": "Lesson 6 — Frequency", "type": "choice", "question": "Which expression is closest in meaning to “sometimes”?", "explanation": "“Occasionally” means sometimes, but not often.", "options": ["occasionally", "never", "always", "often"], "answer": "occasionally"},
 {"id": "expanded-021", "category": "Lesson 6 — Frequency", "type": "fill", "question": "I _____ check my passport before every trip. (100%)", "explanation": "“Always” expresses 100% frequency.", "answers": ["always"]},
 {"id": "expanded-022", "category": "Lesson 6 — Travel procedures", "type": "choice", "question": "You show your passport at _____.", "explanation": "Passports are checked at passport control.", "options": ["passport control", "the conveyor belt", "the departure lounge", "the platform"], "answer": "passport control"},
 {"id": "expanded-023", "category": "Lesson 6 — Tickets", "type": "choice", "question": "If your ticket is not valid for this train, you may have to _____.", "explanation": "A supplement is an extra payment.", "options": ["pay a supplement", "check in online", "get lost", "miss a witness"], "answer": "pay a supplement"},
 {"id": "expanded-024", "category": "Lesson 6 — Travel", "type": "fill", "question": "We had to _____ to another train in Munich. (change transport)", "explanation": "“Transfer” means to change from one service or vehicle to another.", "answers": ["transfer"]}
 ];
 
-export const exerciseBank = [...exercises, ...grammarExtras, ...vocabExtras, ...vocabFillExtras, ...expandedLessonExercises];
+export const exerciseBank = [...exercises, ...grammarExtras, ...vocabExtras, ...vocabFillExtras, ...expandedLessonExercises, ...additionalExercises];
 

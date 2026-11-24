@@ -1,83 +1,75 @@
-# EnglishHub B1.1 — Phase 13: Expanded Live Language Course
+# EnglishHub B1.1 — Phase 15
 
-Cumulative static-site package with substantially expanded teaching material for all six B1.1 lessons, plus exercises, games, tests, analytics and speaking practice.
+A static, offline-first English learning platform for a small B1.1 study group. The interface supports English, Serbian and Russian; English remains the language being practised.
 
 ## Run locally
+
 ```bash
 python -m http.server 8000
 ```
-Open `http://localhost:8000`.
 
-## Implemented
-- Expanded exercise bank with 1,271 questions, including the original grammar/vocabulary bank plus 24 new lesson-focused questions
-- Vocabulary practice includes multiple-choice translation questions and contextual sentence-completion questions, using the 607-word course vocabulary
-- Each new session selects a random set without repeating questions inside that session; answer options are shuffled as well
-- Session sizes: 10, 20, 30, 50 or all available questions; practice modes: mixed, grammar only or vocabulary only
-- Immediate feedback and explanations after every answer; final results include accuracy and a review list of incorrect answers
-- Progress statistics record every question attempted, correct and incorrect answers, and completed sessions
-- Six expanded B1.1 lesson units containing 33 detailed teaching sections and 134 translated examples/dialogues, plus 11 fully explained greeting expressions
-- Lesson 1 teaches all eleven requested greeting expressions, including context, formality, examples, follow-up questions and ways to end a conversation
-- Lessons 2–6 provide structured explanations, examples, usage guidance and practical tasks for past events, life experiences, storytelling, professional communication, technology, travel and frequency
-- Eleven grammar guides and 607 vocabulary entries, including expanded life events, education, news, IT/email and travel vocabulary, with Serbian and Russian translations, parts of speech and contextual example sentences
-- Fourteen games and nine formal test options
-- Test scoring and detailed answer review
-- Local progress analytics: lesson/grammar/vocabulary completion, exercise accuracy, games, tests, activity streak and study time by section
-- Six speaking scenarios aligned with the six lessons
-- Each scenario includes context, two role descriptions, conversation prompts, useful phrases and a grammar/vocabulary focus
-- Typed response field with local saving and restoration
-- Optional browser speech recognition where supported; recognised speech is inserted into the text field
-- Typed input remains available as a fallback
-- Speech recognition is transcription only; there is no automated pronunciation or speaking-quality score
-- English, Serbian and Russian interface; light/dark themes
-- LocalStorage persistence, JSON export and confirmed progress reset
-- Static hosting; no accounts, backend or build step
+Open `http://localhost:8000`. No build step, account or backend is required.
 
-## Data and privacy
-Responses, progress and settings are stored in the current browser. Speech recognition is provided by the browser; the app stores the resulting transcript only when the learner saves it. No cross-device synchronization is provided.
+## Current content inventory
 
-## Vocabulary dictionary integration
-- The vocabulary bank is bundled locally and remains usable without a network connection.
-- For individual headwords, learners can optionally request English definitions, phonetic transcription and audio pronunciation from the Free Dictionary API (`https://dictionaryapi.dev/`).
-- API requests are made only after the learner clicks the dictionary button; there is no API key and no account requirement. Availability depends on the external service and internet access. Phrasal expressions containing spaces use the local translation and example only.
+The checked project contains:
+
+- 6 lessons with lesson guides, examples and dialogues
+- 11 grammar guides
+- 604 vocabulary entries, each with Serbian and Russian translations and an example sentence
+- 1,307 exercise questions across 7 implemented answer formats: multiple choice, fill-in-the-blank, sentence correction, sentence transformation, word ordering, typed short answer and true/false; dialogue and reading-comprehension questions are included as contextual multiple-choice tasks
+- 14 learning games
+- 9 test options
+- 6 speaking scenarios
+
+The exercise bank includes the existing 1,265 questions plus 42 new teacher-authored questions in Phase 15. The six-row Lesson 6 frequency reference follows the supplied course handout exactly: always, usually, often, sometimes, rarely and never, with the related expressions shown in the handout.
+
+## Exercise behaviour
+
+- Sessions are randomized and do not repeat a question within the same session.
+- Answer choices are shuffled.
+- Typed answers are checked without case sensitivity and ignore harmless punctuation and repeated spaces.
+- Feedback includes the expected answer and an explanation.
+- Session summaries include incorrect answers for review.
+- Progress stores overall accuracy, recent session summaries and accuracy by question category.
+- Grammar-only and vocabulary-only filters use lesson category metadata rather than treating every lesson-specific question as grammar.
+
+## Current audit notes and known limitations
+
+- The vocabulary bank has 604 entries and complete Serbian/Russian translations. 411 entries do not yet have a dedicated English definition; their translation and example are still available. These entries should be enriched with teacher-reviewed definitions rather than automatically generated guesses.
+- 166 supplementary vocabulary examples use broad template patterns and should be editorially improved for naturalness before being treated as model sentences.
+- The current question bank is strongest in multiple-choice and gap-fill practice. Phase 15 adds written correction, transformation, ordering and short-answer tasks, but this is not yet a full implementation of every exercise type in the original master specification (for example, a dedicated drag-and-drop matching activity, standalone listening assessment and automatically graded free writing).
+- Speaking recognition depends on browser support and is transcription only; it does not grade pronunciation or speaking quality.
+- Local progress belongs to the current browser and device. There is no account system or cross-device synchronization.
+- External dictionary definitions/audio are optional and require an internet connection.
+
+## Local data and privacy
+
+Settings, progress, exercise history and speaking responses are stored in LocalStorage in the current browser. The Settings page offers JSON export and a confirmed reset. Clearing browser data or changing device/browser may remove access to local progress; keep an exported backup if the results matter.
+
+## Project structure
+
+- `index.html` — application shell and navigation
+- `css/` — design tokens, layout, components and responsive rules
+- `js/app.js` — application bootstrap
+- `js/core/` — routing, translations and local storage
+- `js/components/` — shared application shell
+- `js/data/lessons.js` — lesson metadata and dialogue
+- `js/data/lesson-content.js` — detailed teaching content
+- `js/data/grammar.js` — grammar guides
+- `js/data/vocabulary.js` — vocabulary data
+- `js/data/exercises.js` — base/generated exercise bank
+- `js/data/exercise-additions.js` — Phase 15 teacher-authored multi-format questions
+- `js/data/games.js` — game catalogue
+- `js/data/tests.js` — test catalogue
+- `js/data/speaking.js` — speaking scenarios
+- `js/pages/pages.js` — page rendering and interactive behaviour
+- `AUDIT-PHASE14-15.md` — verified inventory, changes, checks and known limitations
 
 ## Deployment
-Deploy the project folder to GitHub Pages, Netlify or another static host. No build command is required.
 
-## Adding or editing course content
-The content is maintained manually in JavaScript data modules:
-- `js/data/lessons.js` — lesson objectives, dialogues, prompts and grammar/vocabulary references
-- `js/data/lesson-content.js` — expanded lesson explanations, phrase banks, contextual examples, translations and learning tips
-- `js/data/grammar.js` — grammar explanations, forms, examples and common mistakes
-- `js/data/vocabulary.js` — 471 English words and expressions, Serbian/Russian translations, parts of speech, categories and example sentences
-- `js/data/exercises.js` — 1,018-question exercise bank, including generated vocabulary practice derived from the local vocabulary records
-- `js/data/games.js` — game catalogue; game mechanics are implemented in `js/pages/pages.js`
-- `js/data/tests.js` — test catalogue and lesson-to-topic mapping
-- `js/data/speaking.js` — speaking scenarios, roles, prompts and phrase banks
+The folder can be published to GitHub Pages, Netlify or another static host. Keep relative asset paths (the project uses `./css/...` and `./js/...`) when deploying under a subdirectory.
 
-Keep IDs stable when editing content because lesson links and saved progress refer to those IDs.
+## Adding future lessons
 
-## Phase 11 exercise details
-The current exercise bank contains 1,018 unique records: 87 grammar questions, 468 vocabulary multiple-choice questions and 463 vocabulary sentence-completion questions. Vocabulary prompts and explanations are localised for English, Serbian and Russian. The bank is generated from the bundled vocabulary data, so no external API is needed for exercise functionality.
-
-
-## Phase 12 — game corrections
-
-- Vocabulary games now use the currently selected interface language for translations: Serbian, Russian or English definitions. English mode uses entries with a supplied English definition rather than silently falling back to Serbian. The current vocabulary data has 60 entries with English definitions; Serbian and Russian modes can use all 471 entries because those translations are present.
-- Matching and memory-card pairs use the same language-aware vocabulary source.
-- Memory-card faces display the corresponding English word and selected-language meaning/definition.
-- Sentence Builder now gives a short task clue and shuffled word tiles; the complete target sentence is no longer displayed in the prompt. Five sentence patterns are available.
-- Complete the Sentence uses a missing vocabulary item and adds its English definition in parentheses.
-- True/False statements use the selected language for the displayed meaning, and the True/False controls are localised.
-- Speed Quiz uses the same language-aware question generator and no longer labels options as Serbian translations.
-- Hints appear directly below the question in a highlighted panel. Vocabulary hints provide part of speech, word length and a letter pattern; other games provide contextual clues.
-
-
-## Phase 13 additions
-- Added the requested Lesson 2 life-event and education expressions, including school, university, graduation, career changes and family milestones.
-- Expanded Lesson 4 news vocabulary: politics, political issues, weather forecasts, government, the economy, inflation, unemployment, crime, witnesses and natural disasters.
-- Expanded Lesson 5 computer, Internet and email vocabulary, including hardware, software, browsers, web pages, search engines, attachments and formal email expressions.
-- Expanded Lesson 6 airport, railway, customs, documents, boarding, luggage and travel-problem vocabulary.
-- Added 24 targeted exercises covering the newly expanded lesson topics, in addition to the automatic vocabulary exercises.
-- Added a full three-column frequency reference table to Lesson 6, with ten practical frequency levels and localized English, Serbian and Russian labels.
-- Added responsive horizontal scrolling for the frequency table on smaller screens.
-- Frequency guidance distinguishes approximate frequency from exact percentages and includes the normal position of adverbs in sentences.
+Add the lesson metadata and localized lesson content in the relevant data modules, add vocabulary with stable IDs and Serbian/Russian translations, then add questions to `js/data/exercise-additions.js` (or the base bank). Use unique IDs, a supported exercise `type`, one or more accepted answers for typed tasks, and an explanation.

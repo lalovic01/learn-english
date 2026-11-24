@@ -1252,9 +1252,9 @@ export const lessonContent = {
         "ru": "2. Наречия частотности"
       },
       "body": {
-        "en": "Adverbs of frequency describe how often something happens. From most frequent to least frequent: always, usually, often, sometimes, occasionally, rarely, hardly ever and never. The exact percentage is not fixed; the words express an approximate frequency.",
-        "sr": "Prilozi za učestalost opisuju koliko često se nešto dešava. Od najčešćeg ka najređem: always, usually, often, sometimes, occasionally, rarely, hardly ever i never. Njihov procenat nije strogo određen; izražavaju približnu učestalost.",
-        "ru": "Наречия частотности показывают, как часто что-то происходит. От наиболее частого к редкому: always, usually, often, sometimes, occasionally, rarely, hardly ever и never. Точный процент не установлен; слова обозначают приблизительную частоту."
+        "en": "Adverbs of frequency describe how often something happens. This lesson uses six levels: always, usually, often, sometimes, rarely and never. Related words are shown in the table. The frequency labels are approximate, not exact percentages.",
+        "sr": "Prilozi za učestalost opisuju koliko često se nešto dešava. Ova lekcija obrađuje šest nivoa: always, usually, often, sometimes, rarely i never. Povezane reči prikazane su u tabeli. Oznake učestalosti su približne, a ne precizni procenti.",
+        "ru": "Наречия частотности показывают, как часто что-то происходит. В этом уроке изучаются шесть уровней: always, usually, often, sometimes, rarely и never. Связанные слова приведены в таблице. Уровни частотности приблизительные, а не точные проценты."
       },
       "table": {
   "headers": {
@@ -1275,176 +1275,12 @@ export const lessonContent = {
     ]
   },
   "rows": [
-    {
-      "frequency": {
-        "en": "100%",
-        "sr": "100%",
-        "ru": "100%"
-      },
-      "main": {
-        "en": "always",
-        "sr": "uvek",
-        "ru": "всегда"
-      },
-      "related": {
-        "en": "—",
-        "sr": "—",
-        "ru": "—"
-      }
-    },
-    {
-      "frequency": {
-        "en": "Very high",
-        "sr": "Veoma često",
-        "ru": "Очень часто"
-      },
-      "main": {
-        "en": "almost always",
-        "sr": "skoro uvek",
-        "ru": "почти всегда"
-      },
-      "related": {
-        "en": "nearly always",
-        "sr": "gotovo uvek",
-        "ru": "почти всегда"
-      }
-    },
-    {
-      "frequency": {
-        "en": "High",
-        "sr": "Visoka",
-        "ru": "Высокая"
-      },
-      "main": {
-        "en": "usually",
-        "sr": "obično",
-        "ru": "обычно"
-      },
-      "related": {
-        "en": "generally, normally, mostly",
-        "sr": "uglavnom, normalno",
-        "ru": "в основном, обычно"
-      }
-    },
-    {
-      "frequency": {
-        "en": "Quite high",
-        "sr": "Prilično visoka",
-        "ru": "Довольно высокая"
-      },
-      "main": {
-        "en": "often",
-        "sr": "često",
-        "ru": "часто"
-      },
-      "related": {
-        "en": "frequently, regularly",
-        "sr": "učestalo, redovno",
-        "ru": "нередко, регулярно"
-      }
-    },
-    {
-      "frequency": {
-        "en": "Medium-high",
-        "sr": "Srednje visoka",
-        "ru": "Выше средней"
-      },
-      "main": {
-        "en": "quite often",
-        "sr": "prilično često",
-        "ru": "довольно часто"
-      },
-      "related": {
-        "en": "fairly often",
-        "sr": "dosta često",
-        "ru": "достаточно часто"
-      }
-    },
-    {
-      "frequency": {
-        "en": "Medium",
-        "sr": "Srednja",
-        "ru": "Средняя"
-      },
-      "main": {
-        "en": "sometimes",
-        "sr": "ponekad",
-        "ru": "иногда"
-      },
-      "related": {
-        "en": "occasionally, from time to time, now and then",
-        "sr": "povremeno, s vremena na vreme",
-        "ru": "время от времени"
-      }
-    },
-    {
-      "frequency": {
-        "en": "Medium-low",
-        "sr": "Srednje niska",
-        "ru": "Ниже средней"
-      },
-      "main": {
-        "en": "not often",
-        "sr": "ne često",
-        "ru": "нечасто"
-      },
-      "related": {
-        "en": "infrequently",
-        "sr": "retko",
-        "ru": "редко"
-      }
-    },
-    {
-      "frequency": {
-        "en": "Low",
-        "sr": "Niska",
-        "ru": "Низкая"
-      },
-      "main": {
-        "en": "rarely",
-        "sr": "retko",
-        "ru": "редко"
-      },
-      "related": {
-        "en": "seldom, hardly ever",
-        "sr": "gotovo nikada",
-        "ru": "почти никогда"
-      }
-    },
-    {
-      "frequency": {
-        "en": "Very low",
-        "sr": "Veoma niska",
-        "ru": "Очень низкая"
-      },
-      "main": {
-        "en": "almost never",
-        "sr": "skoro nikada",
-        "ru": "почти никогда"
-      },
-      "related": {
-        "en": "hardly ever",
-        "sr": "gotovo nikada",
-        "ru": "едва ли когда-либо"
-      }
-    },
-    {
-      "frequency": {
-        "en": "0%",
-        "sr": "0%",
-        "ru": "0%"
-      },
-      "main": {
-        "en": "never",
-        "sr": "nikada",
-        "ru": "никогда"
-      },
-      "related": {
-        "en": "not ever",
-        "sr": "—",
-        "ru": "—"
-      }
-    }
+    {"frequency":{"en":"100%","sr":"100%","ru":"100%"},"main":{"en":"always","sr":"uvek","ru":"всегда"},"related":{"en":"—","sr":"—","ru":"—"}},
+    {"frequency":{"en":"High","sr":"Visoka","ru":"Высокая"},"main":{"en":"usually","sr":"obično","ru":"обычно"},"related":{"en":"generally · mainly · mostly · normally","sr":"uglavnom · pretežno · većinom · normalno","ru":"в целом · главным образом · преимущественно · обычно"}},
+    {"frequency":{"en":"Quite high","sr":"Prilično visoka","ru":"Довольно высокая"},"main":{"en":"often","sr":"često","ru":"часто"},"related":{"en":"frequently · regularly","sr":"učestalo · redovno","ru":"часто · регулярно"}},
+    {"frequency":{"en":"Medium","sr":"Srednja","ru":"Средняя"},"main":{"en":"sometimes","sr":"ponekad","ru":"иногда"},"related":{"en":"occasionally","sr":"povremeno","ru":"время от времени"}},
+    {"frequency":{"en":"Low","sr":"Niska","ru":"Низкая"},"main":{"en":"rarely","sr":"retko","ru":"редко"},"related":{"en":"seldom","sr":"retko","ru":"редко"}},
+    {"frequency":{"en":"0%","sr":"0%","ru":"0%"},"main":{"en":"never","sr":"nikada","ru":"никогда"},"related":{"en":"—","sr":"—","ru":"—"}}
   ]
 },
       "examples": [
@@ -1474,9 +1310,9 @@ export const lessonContent = {
           "ru": "Он редко пользуется такси."
         },
         {
-          "en": "They hardly ever travel in winter.",
-          "sr": "Gotovo nikada ne putuju zimi.",
-          "ru": "Они почти никогда не путешествуют зимой."
+          "en": "They rarely travel in winter.",
+          "sr": "Retko putuju zimi.",
+          "ru": "Они редко путешествуют зимой."
         },
         {
           "en": "I never leave my luggage unattended.",
@@ -1485,9 +1321,9 @@ export const lessonContent = {
         }
       ],
       "tip": {
-        "en": "“Hardly ever” already has a negative meaning. Do not add “not”: say “I hardly ever fly”, not “I don’t hardly ever fly”.",
-        "sr": "„Hardly ever“ već ima negativno značenje. Nemoj dodavati „not“: reci „I hardly ever fly“, a ne „I don’t hardly ever fly“.",
-        "ru": "“Hardly ever” уже имеет отрицательное значение. Не добавляйте “not”: говорите “I hardly ever fly”, а не “I don’t hardly ever fly”."
+        "en": "Remember: “rarely” and “seldom” have a similar meaning. These related words are close in meaning in the context of frequency, but they are not always interchangeable in every sentence. In particular, “mainly” can also mean “for the most part” or “chiefly”, depending on context.",
+        "sr": "Zapamti: „rarely“ i „seldom“ imaju slično značenje. Povezane reči su bliske po značenju u kontekstu učestalosti, ali nisu uvek zamenljive u svakoj rečenici. Posebno, „mainly“ može značiti i „uglavnom“ ili „pretežno“, u zavisnosti od konteksta.",
+        "ru": "Помните: “rarely” и “seldom” имеют близкое значение. В контексте частотности эти слова похожи, но не всегда взаимозаменяемы в каждом предложении. В частности, “mainly” также может означать “по большей части” или “главным образом” в зависимости от контекста."
       }
     },
     {

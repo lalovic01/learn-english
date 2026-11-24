@@ -34,3 +34,9 @@ h1,h2,h3,p{margin-top:0}.eyebrow{font-size:10px;letter-spacing:1.5px;text-transf
 .frequency-table tbody tr:last-child td{border-bottom:0}
 .frequency-table td:nth-child(2){white-space:nowrap}
 @media(max-width:640px){.frequency-table th,.frequency-table td{padding:10px 12px;font-size:.88rem}}
+
+
+/* Phase 15: clear task-format label above each exercise prompt. */
+.exercise-type-label{display:inline-flex;align-items:center;margin:10px 0 2px;padding:5px 9px;border-radius:7px;background:var(--soft);color:var(--muted);font-size:11px;font-weight:700;letter-spacing:.02em}
+.exercise-question h2{line-height:1.45}
+.exercise-question .answer-input-label input{max-width:100%}

@@ -6179,16 +6179,16 @@ const supplementaryRows = [
 },
 {
   "topic": "emails",
-  "word": "Regards",
+  "word": "Kind regards",
   "partOfSpeech": "email closing",
-  "definition": "a polite way to end a formal or neutral email",
+  "definition": "a polite, friendly way to end a formal or neutral email",
   "translation": {
     "sr": "Srdačan pozdrav",
     "ru": "С уважением"
   },
   "lessonId": "lesson-05",
   "category": "emails",
-  "example": "Regards, Alex"
+  "example": "Kind regards, Alex"
 },
 {
   "topic": "emails",
@@ -6918,46 +6918,6 @@ const supplementaryRows = [
   "category": "frequency",
   "example": "He seldom travels abroad."
 },
-{
-  "topic": "frequency",
-  "word": "hardly ever",
-  "partOfSpeech": "adverb phrase",
-  "definition": "almost never",
-  "translation": {
-    "sr": "gotovo nikada",
-    "ru": "почти никогда"
-  },
-  "lessonId": "lesson-06",
-  "category": "frequency",
-  "example": "I hardly ever travel during rush hour."
-},
-{
-  "topic": "frequency",
-  "word": "almost always",
-  "partOfSpeech": "adverb phrase",
-  "definition": "on nearly every occasion",
-  "translation": {
-    "sr": "skoro uvek",
-    "ru": "почти всегда"
-  },
-  "lessonId": "lesson-06",
-  "category": "frequency",
-  "example": "I almost always check in online."
-},
-{
-  "topic": "frequency",
-  "word": "almost never",
-  "partOfSpeech": "adverb phrase",
-  "definition": "on very few occasions",
-  "translation": {
-    "sr": "skoro nikada",
-    "ru": "почти никогда"
-  },
-  "lessonId": "lesson-06",
-  "category": "frequency",
-  "example": "We almost never travel without luggage."
-}
-,
 {
   "topic": "news",
   "word": "political",
